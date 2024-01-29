@@ -1,0 +1,73 @@
+
+h5{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 120%;
+    margin-top: 160px;
+    color: rgb(255, 255, 255);
+    margin-left: 500px;
+    margin-bottom: 200px;
+    
+}
+
+h5:hover{
+    color: rgb(155, 101, 181);
+}
+
+
+h1{
+    color: rgb(72, 65, 78);
+}
+
+h2{
+    font-family: monospace;
+    color: rgb(117, 104, 129);
+
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    margin-left: 560px;
+}
+
+h3:hover{
+    color: rgb(155, 101, 181);
+}
+
+
+h6{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 110%;
+    color: rgb(255, 255, 255);
+    margin-top: 130px;
+    margin-left: 460px;
+    margin-right: 100px;
+}
+
+h6:hover{
+    color: rgb(155, 101, 181);
+}
+
+h4{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 110%;
+    color: rgb(255, 255, 255);
+    
+}
+
+h4:hover{
+    color: rgb(155, 101, 181);
+}
+
+
+
+h7{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 110%;
+        color: rgb(255, 255, 255);
+    
+    }
+    
+    h7:hover{
+        color: rgb(155, 101, 181);
+    }
