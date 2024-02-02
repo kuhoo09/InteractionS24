@@ -1,0 +1,24 @@
+body{
+    font-family: monospace;
+    background-color: rgb(24, 23, 23);
+    color: rgb(211, 201, 214);
+    padding: 10px;
+    padding-left: 30px;
+}
+
+h1{
+    margin-left: 40px;
+    color:rgb(177, 218, 189); 
+}
+
+a{
+    color: rgb(158, 52, 182);
+}
+
+a:hover{
+    color: rgb(229, 169, 255);
+}
+
+li{
+    padding: 6px;
+}
