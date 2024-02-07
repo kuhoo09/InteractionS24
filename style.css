@@ -2,30 +2,55 @@ body{
     font-family: monospace;
     background-color: rgb(24, 23, 23);
     color: rgb(211, 201, 214);
-    padding: 10px;
     padding-left: 30px;
-    margin-top: 25px;
 }
 
 h1{
-    margin-left: 40px;
-    color:rgb(177, 218, 189); 
+   margin-left: 57vh;
+   margin-top: 25vh;
+    font-size: 50PX;
+    color:rgb(248, 250, 249); 
+
 }
 
-h3{
-    margin-left: 40px;
-    color:rgb(156, 190, 166); 
-    margin-bottom: 40px;
+
+H2{
+    font-size: 18PX;
+    color:rgb(248, 250, 249); 
+    font-weight: lighter;
+    margin-top: 0;
+    margin-left: 65vh;
 }
+
+.studio{
+    color: rgb(194, 194, 194);
+    margin-top: 10vh;
+    margin-left: 74vh;
+}
+
+.lab{
+    color: rgb(194, 194, 194);
+    margin-top: 10vh;
+    margin-left: 75vh;
+}
+
+
 
 a{
-    color: rgb(158, 52, 182);
+    color: rgb(163, 129, 170);
+}
+
+.story{
+    color: rgb(163, 129, 170);
+    margin-left: 38.5vh;
+}
+
+.q{
+    color: rgb(163, 129, 170);
+     margin-left: 39vh; 
 }
 
 a:hover{
-    color: rgb(229, 169, 255);
+    color: rgb(105, 66, 115) ;
 }
 
-li{
-    padding: 6px;
-}
