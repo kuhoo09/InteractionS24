@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+}
+
+h3{
+    color: #e49c9c;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 5;
+    text-decoration: underline;
+    margin-right: auto;
+    position: fixed;
+    margin-top: 87vh;
+}
+
+h4{
+    color: #e49c9c;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 5;
+    text-decoration: underline;
+    margin-left: 70vw;
+    position: fixed;
+    margin-top: 87vh;
+}
+
+p{
+    color: #dfdcdc;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 5;
+    line-height: 160%;
+    position: fixed;
+    margin-right: 10vw;
+    margin-top: 10vh;
+
+}

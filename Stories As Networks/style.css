@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    margin-top: 35vh;
+    margin-left: 30vw;
+
+}
+
+h1{
+    font-size: 50px;
+    color: #ff9d9d;
+    font-family: 'Times New Roman';
+    font-style: oblique;
+    position: fixed;
+}
+
+H2{
+    color: #f9eded;
+    font-family: monospace;
+    font-weight: 5;
+    margin-left: 11vw;
+    position: fixed;
+    margin-top: 100px;
+
+}
+
+H3{
+    color: #e49c9c;
+    font-family: monospace;
+    font-weight: 5;
+    text-decoration: underline;
+    margin-left: 13.5vw;
+    margin-right: auto;
+    position: fixed;
+    margin-top: 52vh;
+
+}
