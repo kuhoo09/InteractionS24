@@ -40,6 +40,10 @@ a{
     color: rgb(163, 129, 170);
 }
 
+a:hover{
+    color: black;
+}
+
 .story{
     color: rgb(163, 129, 170);
     margin-left: 38.5vh;

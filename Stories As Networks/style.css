@@ -34,3 +34,7 @@ H3{
     margin-top: 52vh;
 
 }
+
+h3:hover{
+    color: rgb(13, 13, 13);
+}
