@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+}
+
+h3:hover{
+    color: rgb(13, 13, 13);
+}
+
+h3{
+    color: #e49c9c;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 5;
+    text-decoration: underline;
+    font-style: oblique;
+    margin-left: 36vw;
+    position: fixed;
+    margin-top: 87vh;
+}
+
+p{
+    color: #dfdcdc;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 5;
+    line-height: 160%;
+    position: fixed;
+    margin-right: 10vw;
+    margin-top: 10vh;
+
+}
+
+.p2{
+    margin-top: 15vh;
+}
+
+.p3{
+    margin-top: 20vh;
+}
+
+.p4{
+    margin-top: 25vh;
+}
+
+.p5{
+    font-size: large;
+     margin-top: 33vh;
+}
