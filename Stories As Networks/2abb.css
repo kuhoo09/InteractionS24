@@ -5,34 +5,20 @@ body{
 
 }
 
-h3{
-    color: #e49c9c;
-    font-family: monospace;
-    font-size: 14px;
-    font-weight: 5;
-    text-decoration: underline;
-    margin-right: auto;
-    position: fixed;
-    margin-top: 87vh;
-}
-
 h3:hover{
     color: rgb(13, 13, 13);
 }
 
-h4{
+h3{
     color: #e49c9c;
-    font-family: monospace;
-    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
     font-weight: 5;
     text-decoration: underline;
-    margin-left: 70vw;
+    font-style: oblique;
+    margin-left: 36vw;
     position: fixed;
-    margin-top: 87vh;
-}
-
-h4:hover{
-    color: rgb(13, 13, 13);
+    margin-top: 80vh;
 }
 
 p{
@@ -41,8 +27,24 @@ p{
     font-size: 14px;
     font-weight: 5;
     line-height: 160%;
-    position: fixed;
     margin-right: 10vw;
     margin-top: 10vh;
 
+}
+
+.p2{
+    margin-top: 4vh;
+}
+
+.p3{
+    margin-top: 4vh;
+}
+
+.p4{
+    margin-top: 4vh;
+}
+
+.p5{
+    font-size: large;
+     margin-top: 4vh;
 }

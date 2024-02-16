@@ -10,16 +10,14 @@ h1{
     color: #ff9d9d;
     font-family: 'Times New Roman';
     font-style: oblique;
-    position: fixed;
 }
 
 H2{
     color: #f9eded;
     font-family: monospace;
     font-weight: 5;
-    margin-left: 11vw;
-    position: fixed;
-    margin-top: 100px;
+    margin-left: 10vw;
+    margin-top: 20px;
 
 }
 
@@ -28,10 +26,9 @@ H3{
     font-family: monospace;
     font-weight: 5;
     text-decoration: underline;
-    margin-left: 13.5vw;
+    margin-left: 13vw;
     margin-right: auto;
-    position: fixed;
-    margin-top: 52vh;
+    margin-top: 38vh;
 
 }
 
