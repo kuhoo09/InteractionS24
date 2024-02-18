@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    margin-top: 35vh;
+
+}
+
+h1{
+    font-size: 50px;
+    color:  black;
+    font-family: 'Times New Roman';
+    font-style: oblique;
+    margin-left: 20vw;
+}
+
+h1:hover{
+    color: #ff9d9d;
+}
+
+
+H2{
+    color: #f9eded;
+    font-family: monospace;
+    font-weight: 5;
+    margin-left: 49vw;
+    margin-top: 20px;
+
+}
+
+H3{
+    color: #e49c9c;
+    font-family: monospace;
+    font-weight: 5;
+    text-decoration: underline;
+    margin-left: 43vw;
+    margin-right: auto;
+    margin-top: 38vh;
+
+}
+
+h3:hover{
+    color: rgb(13, 13, 13);
+}

@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+}
+
+h3{
+    color: #e49c9c;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 5;
+    text-decoration: underline;
+    margin-right: auto;
+    position: fixed;
+    margin-top: 80vh;
+}
+
+h3:hover{
+    color: rgb(13, 13, 13);
+}
+
+h4{
+    color: #e49c9c;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 5;
+    text-decoration: underline;
+    margin-left: 70vw;
+    position: fixed;
+    margin-top: 80vh;
+}
+
+h4:hover{
+    color: rgb(13, 13, 13);
+}
+
+p{
+    color: #dfdcdc;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 5;
+    line-height: 160%;
+    margin-right: 10vw;
+    margin-top: 10vh;
+
+}
+
+.p2{
+    margin-top: 4vh;
+}
+
+.p3{
+    margin-top: 4vh;
+}
+
+.p4{
+    margin-top: 4vh;
+}
+
+
