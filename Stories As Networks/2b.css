@@ -1,47 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background-color: black;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+}
+.heart{
+    position: fixed;
+    font-family: monospace;
+    color: rgb(65, 149, 252);
+    font-size: 1rem;
+    animation: fall 3s linear forwards;
+}
 
+.heart:hover{
+    color:  #e49c9c;
+text-decoration: underline;
+}
+
+@keyframes fall {
+    to{
+        transform: translateY(105vh);
+    }
 }
 
 h3{
-    color: #e49c9c;
-    font-family: monospace;
-    font-size: 14px;
-    font-weight: 5;
-    text-decoration: underline;
-    margin-right: auto;
     position: fixed;
+    font-family: monospace;
+    color: rgb(65, 149, 252);
+    font-size: 1rem;
     margin-top: 80vh;
 }
 
 h3:hover{
-    color: rgb(13, 13, 13);
-}
-
-h4{
-    color: #e49c9c;
-    font-family: monospace;
-    font-size: 14px;
-    font-weight: 5;
+    color: rgb(0, 0, 0);
     text-decoration: underline;
-    margin-left: 70vw;
-    position: fixed;
-    margin-top: 80vh;
-}
-
-h4:hover{
-    color: rgb(13, 13, 13);
-}
-
-p{
-    color: #dfdcdc;
-    font-family: monospace;
-    font-size: 14px;
-    font-weight: 5;
-    line-height: 160%;
-    margin-right: 10vw;
-    margin-top: 10vh;
-
 }
