@@ -59,11 +59,9 @@ p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
     font-style: italic;
-    color: #e49c9c;
-    position: fixed;
-    margin-top: 40vh;
+    color: #e49c9c;   
     font-weight: 300;
-    line-height: 30px;
-    margin-left: 28vw;
-    margin-right: 7vw;
+    line-height: 27px;
+    transform: scale(100);
+    transition: 4s;
 }
