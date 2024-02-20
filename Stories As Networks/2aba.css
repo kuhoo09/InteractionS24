@@ -48,11 +48,11 @@ p{
 }
 
 .s1:hover{
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 450px;
-        font-style: italic;
-        color: #e49c9c;
-        line-height: 90px;
+        font-weight: 1800; 
+        font-size: 400px;
+        font-style:initial;
+        color: #fe1313;
+        line-height: 360px;
         transition: 1s;
         margin-top: 180vh;
 }

@@ -59,3 +59,32 @@ p{
 }
 
 
+.s1{
+    color: #3e3c3c;
+    font-weight: 700;
+    margin-top: 4vh;
+}
+
+.s1:hover{
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+font-style: italic;
+color: #e49c9c;   
+font-weight: 300;
+transition: 3s;
+}
+
+.s2{
+    color: #3e3c3c;
+    font-weight: 700;
+}
+
+.s2:hover{
+    font-size: 20px;
+    font-style: italic;
+    color: #c31010;   
+    font-weight: 300;
+    position: fixed;
+    margin-top: 50vh;
+    font-weight: 900;
+    }
