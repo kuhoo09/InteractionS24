@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="maze.css">
+	<head>
+		<title>FORKING PATHS!</title>
+	</head>
+	<body>
+
+
+        <form id="parameters">
+            <label>
+              <span> CELL WIDTH (pixel): </span>
+              <input type="number" name="cell-width" value="10"/>
+            </label>
+            <label>
+              <span> CELL HEIGHT (pixel): </span>
+              <input type="number" name="cell-height" value="10"/>
+            </label>
+            <label>
+              <span> HORIZONTAL CELLS: </span>
+              <input type="number" name="horizontal-cells" value="40"/>
+            </label>
+            <label>
+              <span> VERTICAL CELLS: </span>
+              <input type="number" name="vertical-cells" value="40"/>
+            </label>
+            <button>generate new maze</button>
+          </form> 
+          <div id="maze"></div>
+
+          <script src="./maze.js"></script>
+
+    </body>
+</html>
