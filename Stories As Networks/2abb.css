@@ -45,6 +45,17 @@ p{
 }
 
 .p5{
+    color: #3e3c3c;
+    font-weight: 300;
     font-size: large;
-     margin-top: 4vh;
+    margin-top: 4vh;
+}
+
+.p5:hover{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 300px;
+    font-style: italic;
+    color: #e49c9c;
+    line-height: 47px;
+    transition: 5s;
 }

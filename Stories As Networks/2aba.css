@@ -37,3 +37,22 @@ p{
 .p2{
     margin-top: 4vh;
 }
+
+.p3{
+    margin-top: 4vh; 
+}
+
+.s1{
+    color: #3e3c3c;
+    font-weight: 700; 
+}
+
+.s1:hover{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 450px;
+        font-style: italic;
+        color: #e49c9c;
+        line-height: 90px;
+        transition: 1s;
+        margin-top: 180vh;
+}

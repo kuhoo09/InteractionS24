@@ -60,9 +60,8 @@ p{
     font-size: 25px;
     font-style: italic;
     color: #e49c9c;
-    position: fixed;
-    margin-top: 50vh;
-    margin-right: 20px;
     font-weight: 300;
-    line-height: 27px;
+    line-height: 47px;
+    transform: scale(100);
+    transition: 4s;
 }
