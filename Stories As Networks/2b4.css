@@ -47,9 +47,41 @@ p{
 }
 
 .p2{
-    margin-top: 4vh;
+    position: fixed;
+    margin-top: 5vh;
 }
 
 .p3{
-    margin-top: 4vh;
-}
+    position: fixed;
+    margin-top: 16vh;}
+
+.wrapper {
+    position: fixed;
+    margin-top: 0vh;
+    margin-left: 0vw;
+    /*This part is is mportant for centering*/
+    display: grid;
+    place-items: center;
+  }
+  
+  .typing-demo {
+    color: #e49c9c;
+    animation: typing 5s steps(20), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 1.5em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }

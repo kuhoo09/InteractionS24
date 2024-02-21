@@ -36,8 +36,11 @@
   h1:hover{
     color: #010101;
     font-family: monospace;
-    font-size: 34px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 84px;
     font-weight: 15;
+    transition: 4s;
   }
 
   H2{

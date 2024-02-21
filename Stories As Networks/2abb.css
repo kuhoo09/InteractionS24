@@ -55,7 +55,9 @@ p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 300px;
     font-style: italic;
-    color: #e49c9c;
+    color: #000000;
     line-height: 47px;
     transition: 5s;
+    text-shadow: 2px 2px 10px #e49c9c;
+filter: dropshadow(color=#e49c9c, offx=200, offy=702);
 }
