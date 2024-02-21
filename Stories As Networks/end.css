@@ -1,0 +1,114 @@
+
+body
+{
+    margin-top: 10vh;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    background-color: #000;
+}
+.container
+{
+    position: fixed;
+    margin-top: 40vh;
+    margin-left: 40vw;
+    width: 100%;
+    max-width: 250px;
+    padding: 20px;
+}
+.slider
+{
+   
+    width: 100%;
+    height: 4px;
+    max-width: 400px;
+    background-color: #101010;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    cursor: grab;
+    
+}
+
+
+h1{
+    font-size: 50px;
+    color:  rgb(0, 0, 0);
+    font-family: 'Times New Roman';
+    font-style: oblique;
+    margin-left: 20vw;
+    position: fixed;
+    text-decoration: underline;
+}
+
+h1:hover{
+    color: #101010;
+    text-shadow: 200px 82px 10px #710d0d;
+    filter: dropshadow(color=#a21010, offx=220, offy=102);
+    transition: 4s;
+    font-size: 180px;
+}
+
+
+.h3{
+    color: #000000;
+    font-family: monospace;
+    font-weight: 5;
+    margin-left: 59vw;
+    margin-top: 40vh;
+    position: fixed;
+}
+
+.h4{
+    color: #000000;
+    font-family: monospace;
+    font-weight: 5;
+    margin-left: 89vw;
+    margin-top: 60vh;
+    position: fixed;
+}
+
+.h5{
+    color: #000000;
+    font-family: monospace;
+    font-weight: 5;
+    position: fixed;
+    margin-top: 60vh;
+    margin-left: 0vw;
+}
+
+
+.h6{
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 5;
+    margin-top: 0vh;
+    margin-left: 80vw
+}
+
+
+H2{
+    color: #f9eded;
+    font-family: monospace;
+    font-weight: 5;
+    margin-left: 49vw;
+    margin-top: 50vh;
+    position: fixed;
+}
+
+
+H3{
+    color: #e49c9c;
+    font-family: monospace;
+    font-weight: 5;
+    text-decoration: underline;
+    margin-left: 43vw;
+    margin-right: auto;
+    margin-top: 80vh;
+    position: fixed;
+
+}
+
+h3:hover{
+    color: rgb(13, 13, 13);
+}

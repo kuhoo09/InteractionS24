@@ -53,15 +53,30 @@ p{
 .s1{
     color: #3e3c3c;
     font-weight: 700;
+    position: relative;
+    -webkit-animation: moving 5s infinite;
+    animation: moving 5s infinite;
+}
+        
+@-webkit-keyframes moving {
+    from {top: 0px;}
+    to {top: 200px;}
+}
+
+@keyframes moving {
+    from {top: 0px;}
+    to {top: 200px;}
+}
+
+@keyframes moving{
+    from {top: 0px;}
+    to {top: 200px;
+    }
 }
 
 .s1:hover{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 19px;
     font-style: italic;
     color: #e49c9c;   
-    font-weight: 300;
-    line-height: 27px;
-    transform: scale(100);
-    transition: 4s;
 }

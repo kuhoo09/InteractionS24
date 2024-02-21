@@ -47,8 +47,17 @@ p{
 }
 
 .p2{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 25px;
     margin-top: 4vh;
     color: #e49c9c;
 }
 
-
+.p2:hover{
+   
+    color: #000000;
+    text-shadow: 200px 82px 10px #d04242;
+    filter: dropshadow(color=#ff1515, offx=220, offy=102);
+    transition: 4s;
+}
