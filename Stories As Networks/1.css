@@ -46,3 +46,14 @@ p{
     margin-top: 10vh;
 
 }
+
+.s1{
+    font-size: 16px;
+    animation: fadeOut 15s; 
+
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }

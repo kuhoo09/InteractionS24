@@ -53,3 +53,18 @@ p{
 .p3{
     margin-top: 4vh;
 }
+
+.s1{
+    color: #3e3c3c;
+    font-weight: 700;
+    margin-top: 4vh;
+}
+
+.s1:hover{
+font-family: 'Times New Roman', Times, serif;
+font-size: 50px;
+font-style: italic;
+color: #5d1e1e;   
+transition: 3s;
+
+}

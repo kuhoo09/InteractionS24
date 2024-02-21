@@ -53,3 +53,17 @@ p{
 .p3{
     margin-top: 4vh;
 }
+
+.s1{
+    color: #3e3c3c;
+    font-weight: 700;
+    margin-top: 4vh;
+    transition: 4s;
+}
+
+.s1:hover{
+font-size: 63px;
+font-weight: 1700;
+color: #cabebe;   
+transition: 2s;
+}

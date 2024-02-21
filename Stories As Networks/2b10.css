@@ -40,3 +40,17 @@ p{
 .p3{
     margin-top: 4vh;
 }
+
+.s1{
+    color: #3e3c3c;
+    font-weight: 700;
+    margin-top: 4vh;
+}
+
+.s1:hover{
+font-size: 250px;
+font-weight: 1700;
+color: #d78181;   
+transition: 2s;
+line-height: 100px;
+}

@@ -53,6 +53,8 @@ p{
         font-style:initial;
         color: #fe1313;
         line-height: 360px;
-        transition: 1s;
+        transition: 0.5s;
         margin-top: 180vh;
+        text-shadow: 2px 2px 10px #db2a0f;
+filter: dropshadow(color=#b20606, offx=100%, offy=200%);
 }

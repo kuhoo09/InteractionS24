@@ -63,6 +63,7 @@ p{
     color: #3e3c3c;
     font-weight: 700;
     margin-top: 4vh;
+    transition: 10s;
 }
 
 .s1:hover{
@@ -79,6 +80,7 @@ filter: dropshadow(color=#fdaa3f, offx=2, offy=2);
 .s2{
     color: #3e3c3c;
     font-weight: 700;
+    
 }
 
 .s2:hover{
