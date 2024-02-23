@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>HTML Reverse Engineering</title>
+    <style>
+      section { margin-top: 120px; }
+      #table-of-contents { margin: 80px 0; }
+      .grid-col-2 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-column-gap: 40px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      Core 2 Interaction: Lab – &nbsp;<em>HTML Reverse Engineering</em>
+    </header>
+
+    <section id="table-of-contents">
+      <ul>
+        <li><a href="#screenshot">Screenshot ↓</a></li>
+        <li><a href="#analysis">Analysis ↓</a></li>
+        <li><a href="#questions">Questions ↓</a></li>
+      </ul>
+    </section>
+
+    <section id="screenshot">
+      <h2>Screenshot</h2>
+<img src="Screen Shot 2024-02-22 at 2.18.07 PM.png" class="img 2">
+<img src="Screen Shot 2024-02-22 at 10.20.03 AM.png" class="img 2">
+
+    </section>
+
+    <section id="analysis">
+      <h2>Analysis</h2>
+      <div class="grid-col-2">
+        <div>
+          <pre id="analysis--simplified-html" class="a1">
+          div 
+            div id
+          header 
+            h1 
+              a href 
+            div 
+              a href 
+            nav 
+              div 
+                div 
+                svg 
+              nav 
+                ul 
+                span 
+            ul 
+              li
+          main 
+            section 
+              div 
+                a href 
+          main
+          footer 
+          script 
+          </pre>
+        </div>
+        <div id="analysis--text" class="a2">
+          <ul>
+            <li>
+          battery_bg is the class that changes the background based on solar power. 
+            </li><li>
+              the div has another div, called battery that defines the height.
+            </li><li>
+              Header container, "site-header" has different elements in it: 
+            </li> <ol>
+              <li>h1 tag with site name and logo, links to homepage</li>
+              <li>div class subtitle has the subtitle that describes the site</li>
+              <li>menu div that has language variation options</li>
+              <li>menu div that lists different pages</li>
+            </ol>
+             <li>the main class home article list includents different article embeds on the homepage</li>
+             <li>this has a sectio grid and then separate divs for each article listing that link to that specific article</li>
+             <li>it was super fun to take things off in dev mode or change colors even. if i took out the battery-bg div, the entire page was yellow. if i took out the main class, there was only a header and footer left now.</li>
+
+
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="analysis--questions">
+      <h2>Questions</h2>
+      <ul>
+        <li>
+         I was super confused about how to get the pre tags? 
+        </li>
+        <li>
+          What's the difference between div id and div class?
+        </li>
+      </ul>
+    </section>
+
+  </body>
+	
+</html>

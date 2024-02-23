@@ -3,6 +3,7 @@ body{
     background-color: rgb(24, 23, 23);
     color: rgb(211, 201, 214);
     padding-left: 30px;
+    position: fixed;
 }
 
 h1{
@@ -10,7 +11,7 @@ h1{
    margin-top: 25vh;
     font-size: 50PX;
     color:rgb(248, 250, 249); 
-
+    position: fixed;
 }
 
 
@@ -18,26 +19,30 @@ H2{
     font-size: 18PX;
     color:rgb(248, 250, 249); 
     font-weight: lighter;
-    margin-top: 0;
+    margin-top: 35vh;
     margin-left: 65vh;
+    position: fixed;
 }
 
 .studio{
     color: rgb(194, 194, 194);
-    margin-top: 10vh;
+    margin-top: 45vh;
     margin-left: 74vh;
+    position: fixed;
 }
 
 .lab{
     color: rgb(194, 194, 194);
-    margin-top: 10vh;
+    margin-top: 65vh;
     margin-left: 75vh;
+    position: fixed;
 }
 
 
 
 a{
     color: rgb(163, 129, 170);
+    position: fixed;
 }
 
 a:hover{
@@ -47,18 +52,32 @@ a:hover{
 .story{
     color: rgb(163, 129, 170);
     margin-left: 38.5vh;
+    position: fixed;
+    margin-top: 25vh;
 }
 
 .q{
     color: rgb(163, 129, 170);
      margin-left: 39vh; 
+     position: fixed;
+     margin-top: 35vh;
 }
 
 a:hover{
     color: rgb(105, 66, 115) ;
+    position: fixed;
 }
 
 .network{
     color: rgb(163, 129, 170);
     margin-left: 22vw;
+    position: fixed;
+    margin-top: 27vh;
+}
+
+.html-analysis{
+    color: rgb(163, 129, 170);
+    margin-left: 22.2vw;
+    position: fixed;
+    margin-top: 37vh;
 }

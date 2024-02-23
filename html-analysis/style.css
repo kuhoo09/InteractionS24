@@ -1,0 +1,31 @@
+body{
+    margin: 20px;
+    background-color: rgb(255, 211, 211);
+    font-family: monospace;
+    line-height: 20px;
+}
+
+.a1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(64, 64, 83);
+    line-height: 25px;
+
+}
+
+.a2{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-right: 50px;
+}
+
+li{
+    font-size: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+img{
+height: 420px;
+}
